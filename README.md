@@ -104,3 +104,4 @@ networks: {}
 
 当前可用镜像：
 - `channinghe/apt-sync:aria2c` - 使用aria2c加速的APT同步镜像
+- `channinghe/apt-sync:latest` - 无aria2c，只支持CRON和PUID/GUID的版本

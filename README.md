@@ -1,4 +1,4 @@
-# TuneSync Docker
+# TunaSync Docker
 
 本项目是基于Docker的镜像同步工具，支持自定义用户权限、定时任务和并行下载功能。
 

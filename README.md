@@ -88,9 +88,10 @@ networks: {}
 | 变量名 | 描述 |
 |-------|------|
 | APTSYNC_URL | 上游镜像URL |
-| APTSYNC_DISTS | 需要同步的发行版配置，格式为：`发行版\|组件\|架构\|` |
+| APTSYNC_DISTS | 需要同步的发行版配置，格式为：`发行版\|组件\|架构\|下载路径` |
 | APTSYNC_UNLINK | 是否先删除目标文件，设置为1开启 |
 
+PS: 关于APTSYNC_DISTS，你可以访问[APT源转TunaSync-Docker环境变量转换工具](https://www.homelabproject.cc/tools/apt-converter/) ，来在线批量转换
 ## 挂载点说明
 
 | 路径 | 描述 |
